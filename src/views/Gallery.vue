@@ -16,7 +16,7 @@ export default {
     <section id="home">
       <div class="titles">
         <h1 class="title">Галерия</h1>
-        <p>Потопи се в дълбочините на изкуството и илюзиите</p>
+        <p class="slogan">Потопи се в дълбочините на изкуството и илюзиите</p>
       </div>
     </section>
 
@@ -44,6 +44,25 @@ export default {
   </div>
 </template>
 <style scoped>
+@media only screen and (max-width: 639px)
+{
+  .gallery
+  {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  img{
+    max-width: 300px !important;
+  }
+  .image
+  {
+    /* max-width: 200px !important; */
+  }
+  .slogan
+  {
+    font-size: 2.5rem;
+  }
+}
 .gallery
 {
     margin-top: 200px;
