@@ -1,12 +1,15 @@
 <script>
 import Navbar from "@/components/navbar.vue";
 import Footer from "@/components/footer.vue";
+import ContactsForm from "@/components/ContactsForm.vue";
+
 
 export default {
   name: "Contacts",
   components: {
     Navbar,
     Footer,
+    ContactsForm,
   },
 };
 </script>
@@ -16,12 +19,12 @@ export default {
     <section id="home">
       <div class="titles">
         <h1 class="title">Контакти</h1>
-        <h5 class="title">Телефон: </h5>
-        <h5 class="title">Имейл: </h5>
+        <!-- <h5 class="title">Телефон: </h5>
+        <h5 class="title">Имейл: </h5> -->
         <!-- <button class="tickets">Имейл: </button> -->
       </div>
     </section>
-    
+    <ContactsForm />
     <Footer />
   </div>
 </template>
@@ -36,7 +39,8 @@ export default {
 .titles {
   display: flex;
   justify-content: left;
-  margin-left: 260px;
+  text-align: center !important;
+  /* margin-left: 260px; */
   padding-top: 250px;
   color: white;
   font-size: 3rem;
