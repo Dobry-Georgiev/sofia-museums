@@ -8,6 +8,13 @@ export default {
     Navbar,
     Footer,
   },
+  methods: 
+  {
+    buyTickets: function ()
+    {
+      alert('The website is under development. Please try again once it is officially published')
+    }
+  }
 };
 </script>
 <template>
@@ -17,7 +24,7 @@ export default {
       <div class="titles">
         <h1 class="title">София</h1>
         <h5 class="title">Музеи и култура</h5>
-        <button class="tickets">Билети</button>
+        <button v-on:click="buyTickets()" class="tickets">Билети</button>
       </div>
     </section>
     

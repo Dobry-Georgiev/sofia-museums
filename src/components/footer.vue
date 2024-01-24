@@ -3,7 +3,7 @@
   <hr/>
  <div class="footer">
   <div class="pages-container">
-    <h3 style="margin-bottom: 0;">Полезни връзки</h3>
+    <h3 class="pages-header" style="margin-bottom: 0;">Полезни връзки</h3>
     <div style="display: flex;">
     <ul class="pages">
       <li>
@@ -59,6 +59,33 @@
   </script>
   
   <style scoped>
+@media only screen and (max-width: 850px)
+{
+  .pages-container
+{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.container{
+  margin: 0 !important;
+}
+.contacts-container
+{
+  margin: 0 !important;
+}
+}
+@media only screen and (max-width: 850px)
+{
+  .footer
+  {
+    flex-direction: column;
+  }
+  .pages-header
+  {
+    text-align: left;
+    padding-left: 70px;
+  }
+}
   .container
   {
     margin-left: 200px;

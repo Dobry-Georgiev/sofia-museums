@@ -20,7 +20,7 @@ export default {
     </section>
 
     <div class="welcome">
-      <h1>Добре дошли в София - градът на културата и историята!</h1>
+      <h1>Добре дошли в София - градът на културата и историята</h1>
       <p>
         Изпъстрен с богато наследство, градът предлага множество музейни
         съкровища, които пригряват посетителите си с удивителни експозиции и
@@ -104,7 +104,7 @@ export default {
   color: white;
   margin-top: 200px;
   margin-bottom: 200px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 500px;
+  margin-right: 600px;
 }
 </style>
