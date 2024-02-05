@@ -8,13 +8,10 @@ Here are some screenshots of our website:
 
 ![Home Page](https://github.com/Dobry-Georgiev/sofia-museums/blob/main/preview-images/homepage.png)
 
-![Museums Page](screenshots/museums.png)
+![Museums Page](https://github.com/Dobry-Georgiev/sofia-museums/blob/main/preview-images/musems-page.png)
 
-![Events Page](screenshots/events.png)
+![Gallery Page]([screenshots/gallery.png](https://github.com/Dobry-Georgiev/sofia-museums/blob/main/preview-images/gallery-page.png))
 
-![Gallery Page](screenshots/gallery.png)
-
-![Contacts Page](screenshots/contacts.png)
 
 ## Features
 
