@@ -104,7 +104,7 @@ export default {
   color: white;
   margin-top: 200px;
   margin-bottom: 200px;
-  margin-left: 500px;
-  margin-right: 600px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 </style>

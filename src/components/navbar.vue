@@ -62,11 +62,11 @@ export default {
 {
   margin-left: 20px !important;
 }
-}
 .welcome
 {
   margin-left: 20px !important;
   margin-right: 0 !important;
+}
 }
 </style>
 <style scoped>

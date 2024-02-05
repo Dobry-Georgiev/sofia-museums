@@ -54,7 +54,7 @@ export default {
   color: white;
   margin-top: 200px;
   margin-bottom: 200px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 </style>
