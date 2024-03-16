@@ -4,7 +4,7 @@ Welcome to the Museums of Sofia website repository! This website is built with V
 
 ## Screenshots
 
-Here are some screenshots of our website:
+Here are some screenshots of the website:
 
 ![Home Page](https://github.com/Dobry-Georgiev/sofia-museums/blob/main/preview-images/homepage.png)
 
